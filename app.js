@@ -2,7 +2,7 @@ var express = require('express');
 var redis = require("redis");
 
 var app = express();
-var client = redis.createClient(process.env.REDIS_PORT || "6379", process.env.REDIS_HOST || "localhost");
+var client = redis.createClient(process.env.REDIS_PORT, process.env.REDIS_HOST);
 
 app.get('/keys/:pattern?', getKeys);
 app.get('/key/:key', getKeyDetails);
