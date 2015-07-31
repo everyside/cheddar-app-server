@@ -1,0 +1,23 @@
+{
+  "name": "cheddar-app-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/everyside/cheddar-app-server.git"
+  },
+  "author": "Everyside Innovations, LLC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/everyside/cheddar-app-server/issues"
+  },
+  "homepage": "https://github.com/everyside/cheddar-app-server",
+  "dependencies": {
+    "express": "^4.13.1",
+    "redis": "^0.12.1"
+  }
+}
